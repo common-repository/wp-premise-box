@@ -1,0 +1,38 @@
+#premise-box {
+  background: #eff;
+  color: #000;
+  margin: 0 0 20px;
+  overflow: hidden;
+  padding: 20px 20px 0;
+} 
+#premise-box h3 {
+  color: #999;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0 0 10px;
+  padding: 0;
+  text-transform: uppercase
+}
+#premise-box a,
+#premise-box a:visited {
+  color: blue;
+  text-decoration:underline
+}
+#premise-box a:hover {
+  text-decoration:none
+}
+#premise-box p {
+  color: #000;
+  padding: 0 0 20px;
+}
+#premise-box .alignright {
+  float: right;
+  margin: 0 0 25px 15px;
+}
+/* css for rounded corners */
+.wppb-rounded-corners {
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -khtml-border-radius: 20px;
+  border-radius: 20px
+}
